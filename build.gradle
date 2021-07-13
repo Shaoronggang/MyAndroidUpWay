@@ -27,6 +27,8 @@ allprojects {
     }
 }
 
+// todo: 对版本内容进行统一配置
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

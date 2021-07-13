@@ -6,7 +6,7 @@ android {
     buildToolsVersion "29.0.0"
     defaultConfig {
         applicationId "com.example.myandroidupway"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -37,7 +37,7 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:3.12.0'
     implementation 'com.google.code.gson:gson:2.8.2'
     implementation 'org.greenrobot:greendao:3.2.2' // 添加依赖
-
+    implementation project(':developlibrary') // 引入了项目库
 
     // todo 使用最新的框架retrofit,以及RxJava,另外数据库使用GreenDao,语言尽可能得使用Kotlin,来开发一些商城，IM,以及视频类的应用
 }
