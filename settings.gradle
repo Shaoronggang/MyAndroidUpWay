@@ -1,2 +1,4 @@
+include ':developlibrary'
+include ':dataapp'
 include ':app'
 rootProject.name='MyAndroidUpWay'
